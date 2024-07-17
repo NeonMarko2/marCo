@@ -1,0 +1,16 @@
+input 0
+set 1 2
+set 2 0
+
+mod 0 0 1
+
+if 0 = 2
+
+    yell Even
+
+end
+if 0 ~ 2
+
+    yell Odd
+
+end
